@@ -1,4 +1,4 @@
-![](logo.jpg)
+![][def]
 
 * ___Name and Surname:___
 
@@ -21,3 +21,4 @@ Railway engineer. In 2014 graduated from the Moscow State University of Railway 
 * ___English level:___
 
 A1 beginner
+![](logo.jpg)
