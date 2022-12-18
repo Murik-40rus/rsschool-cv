@@ -1,3 +1,98 @@
-.text-block {
-    background-color: red;
+
+html {
+    scroll-behavior: smooth; 
+    max-width: 1500px;
+    margin: auto;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(36, 210, 241);
+    border-radius: 10px;
+  }
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: rgb(218, 241, 241);
+  }
+  main {
+    position: relative;
+    border: solid 10PX;
+    border-radius: 30px;
+    border-color: rgb(36, 210, 241);
+    bottom: 9px;
+  }
+.cv-list {
+     position: relative; left: 50%; top: 33%;
+     display: inline;
+     padding: 5px;
+     margin-left: 10px;
+}
+.logo{
+    width: 300px;
+    height: 300px;
+}
+.my-photo-name {
+    display: grid;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-style: italic;
+    grid-template-columns: 300px 1fr;
+    place-items: center;
+    gap:410px;
+    margin: 40px;
+    padding-left: 50px;
+}
+.profession {
+    font-weight: lighter;
+    font-size: x-large;
+}
+.cv-main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 40px;
+    gap: 30px;
+    font-family: 'Roboto', sans-serif; 
+}
+li {
+    font-weight: lighter;
+    font-size: x-large;
+}
+footer {
+    background-color: rgb(36, 210, 241);
+    border-radius: 10px;
+    width: 1485px;
+    height: 50px;
+}
+.contener {
+    display: inline-block;
+    
+}
+.contener-1 {
+    position: relative;
+    left: 10px;
+    bottom: 19px;
+    font-family: 'Roboto', sans-serif; 
+    font-style: italic;
+    font-size: 20px;
+}
+.contener-2 {
+    position: relative;
+    left: 20px;
+    bottom: 19px;
+    font-family: 'Roboto', sans-serif; 
+    font-style: italic;
+    font-size: 20px;
+}
+.contener-3 {
+    position: relative;
+    left: 1160px;
+} 
+img {
+    width: 100px;
+    height: 50px;
 }
